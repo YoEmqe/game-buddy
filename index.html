@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Buddy | Offline Game Library</title>
+    <meta
+      name="description"
+      content="Discover 20+ vibrant, fast, no-internet games in one app with Game Buddy."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-left"></div>
+      <div class="ambient ambient-right"></div>
+
+      <header class="topbar">
+        <a class="brand" href="#hero" aria-label="Game Buddy home">
+          <img
+            class="brand-logo"
+            src="./assets/game_buddy_logo.png"
+            alt="Game Buddy logo"
+          />
+        </a>
+
+        <div class="topbar-actions">
+          <nav class="topnav" aria-label="Main navigation">
+            <a href="#games">Games</a>
+            <a href="#features">Features</a>
+          </nav>
+
+          <a class="store-cta" href="#download" aria-label="Download on the App Store">
+            <span class="store-cta-label">Download on the</span>
+            <strong>App Store</strong>
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" id="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">29 mini games, zero internet stress</p>
+            <h1>Turn spare moments into a mini game festival.</h1>
+            <p class="hero-text">
+              Game Buddy brings together dozens of puzzle, reflex, card, and
+              arcade-style games in one app. Open it, pick one, play. That is
+              how easy it feels.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#games">Explore the games</a>
+              <a class="button button-secondary" href="#download"
+                >See the app</a
+              >
+            </div>
+
+            <div class="hero-stats" aria-label="Stats">
+              <article>
+                <strong>29</strong>
+                <span>ready-to-play game cards</span>
+              </article>
+              <article>
+                <strong>Offline</strong>
+                <span>works on planes and subways too</span>
+              </article>
+              <article>
+                <strong>Fast</strong>
+                <span>start playing in seconds</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb orb-orange"></div>
+            <div class="orb orb-cyan"></div>
+            <div class="hero-card hero-card-main">
+              <img
+                src="./assets/game_buddy_logo.png"
+                alt=""
+                class="hero-logo"
+              />
+              <div class="hero-card-copy">
+                <span>Arcade energy</span>
+                <strong>A game for every mood</strong>
+              </div>
+            </div>
+
+            <div class="floating-pill pill-left">Puzzle</div>
+            <div class="floating-pill pill-right">Reflex</div>
+            <div class="floating-pill pill-bottom">Card games</div>
+          </div>
+        </section>
+
+        <section class="feature-strip" id="features">
+          <article class="feature-card">
+            <span class="feature-icon">⚡</span>
+            <h2>Start instantly</h2>
+            <p>
+              Fast little game sessions that open with a tap instead of a wait.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-icon">🎯</span>
+            <h2>Something for every style</h2>
+            <p>
+              A wide mix, from brainy puzzles to score-chasing arcade rounds.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <span class="feature-icon">🌈</span>
+            <h2>Vibrant design</h2>
+            <p>
+              The logo's bold color language gives every screen a playful glow.
+            </p>
+          </article>
+        </section>
+
+        <section class="showcase" id="games">
+          <div class="section-heading">
+            <p class="eyebrow">Game wall</p>
+            <h2>Mini worlds waiting inside the app</h2>
+            <p>
+              Every card is short, clear, and inviting so players understand
+              the vibe at a glance.
+            </p>
+          </div>
+
+          <div class="game-grid" id="game-grid" aria-live="polite"></div>
+        </section>
+
+        <section class="experience-band">
+          <div class="band-copy">
+            <p class="eyebrow">Perfect for short sessions</p>
+            <h2>Jump in, feel better, jump back out.</h2>
+          </div>
+
+          <div class="band-points">
+            <span>Score chasing</span>
+            <span>Tap and play</span>
+            <span>Kid friendly</span>
+            <span>Bold colors</span>
+          </div>
+        </section>
+
+        <section class="download-panel" id="download">
+          <div>
+            <p class="eyebrow">Game Buddy</p>
+            <h2>A pocket-size arcade you can carry anywhere.</h2>
+            <p>
+              One app, a packed library, and a first impression full of energy.
+              The landing page now speaks that same language.
+            </p>
+          </div>
+
+          <a class="button button-primary" href="#hero">Back to top</a>
+        </section>
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
